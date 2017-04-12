@@ -1,0 +1,227 @@
+    <script> 
+                    $(document).ready(function(){
+                        console.log("before common js")
+                         zTable({{{zillowdata}}});
+                        
+                    });
+    </script> 
+    <header id="header" class="alt">
+						<h1><a href="index.html">Zillow Project</a></h1>
+						<nav id="nav">
+							<ul>
+								<li class="special">
+									<a href="#menu" class="menuToggle"><span></span></a>
+									<div id="menu">
+										<ul>
+											<li><a href="index.html">Home</a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+						</nav>
+					</header>
+
+				<!-- Banner -->
+<!--
+					<section id="banner">
+						<div class="inner">
+							<h2>Zillow Project</h2>
+                            <form id="searchMenu" action="/index/submit" method="GET">
+                                <label>Areas</label> <input id="area" type="text" name="search" placeholder="City, State">  
+                                <label>Rooms</label> <input id="room" type="text" name="search" placeholder="# of Bedrooms, and Bathrooms">
+                                <label>Types</label> 
+                                <select id="porperty">
+                                  <option value="House">House</option>
+                                  <option value="Apartment">Apartment</option>
+                                  <option value="Townhouse">Townhouse</option>
+                                  <option value="Condo">Condo</option>
+                                </select>
+                                <button type="submit" id="searchButton" value="submit">Search</button>
+                            </form>
+							<br><br>
+							<ul class="actions">
+								<li><a id="beginSearch" class="button special">Activate</a></li>
+							</ul>
+						</div>
+					//	<a href="#one" class="more scrolly">Learn More</a>
+					</section>
+-->
+
+				<!-- One -->
+					<section id="one" class="wrapper style1 special">
+						<div class="inner">
+							<header class="major">
+								<h2>Zilow Data</h2>
+<!--
+								<p>{{area}} </p>
+                                <p>{{room}} </p>
+                                <p>{{property}} </p>
+-->
+							</header>
+							
+						</div>
+                        
+                        <div id="ncharts" style="float: left; margin-left: 20%;">
+                            
+                        </div>
+                        <div id="ngraph" style="float: left;" >
+                            
+                        </div>
+                        <script>
+                        // Use Morris.Area instead of Morris.Line
+//                        Morris.Area({
+//                          element: 'ngraph',
+//                            behaveLikeLine: true,
+//                          data: [
+//                            {x: '10', y: 3, z: 7},
+//                            {x: '10', y: 3, z: 4},
+//                            {x: '10', y: null, z: 1},
+//                            {x: '10', y: 2, z: 5},
+//                            {x: '10', y: 8, z: 2}
+//                          ],
+//                          xkey: 'x',
+//                          ykeys: ['y', 'z'],
+//                          labels: ['Y', 'Z']
+//                        }).on('click', function(i, row){
+//                          console.log(i, row);
+//                        });
+                        </script>
+                   
+                            <div id="ntable" class="tableinner" >
+<!--
+                                <table>
+                                    <thead>
+                                          <tr>
+                                            <th>Firstname</th>
+                                            <th>Lastname</th>
+                                            <th>Savings</th>
+                                          </tr>
+                                    </thead>
+                                    <tbody>
+                                     <tr>
+                                        <td>Peter</td>
+                                        <td>Griffin</td>
+                                        <td>$100</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Lois</td>
+                                        <td>Griffin</td>
+                                        <td>$150</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Joe</td>
+                                        <td>Swanson</td>
+                                        <td>$300</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Cleveland</td>
+                                        <td>Brown</td>
+                                        <td>$250</td>
+                                      </tr>
+                                    </tbody>
+                                     
+                                </table>
+-->
+                            
+                            </div>
+               
+                        
+					</section>
+
+				<!-- Two -->
+<!--
+					<section id="two" class="wrapper alt style2">
+						<section class="spotlight">
+							<div class="image"><img src="images/pic01.jpg" alt="" /></div><div class="content">
+								<h2>Magna primis lobortis<br />
+								sed ullamcorper</h2>
+								<p>Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.</p>
+							</div>
+						</section>
+						<section class="spotlight">
+							<div class="image"><img src="images/pic02.jpg" alt="" /></div><div class="content">
+								<h2>Tortor dolore feugiat<br />
+								elementum magna</h2>
+								<p>Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.</p>
+							</div>
+						</section>
+						<section class="spotlight">
+							<div class="image"><img src="images/pic03.jpg" alt="" /></div><div class="content">
+								<h2>Augue eleifend aliquet<br />
+								sed condimentum</h2>
+								<p>Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.</p>
+							</div>
+						</section>
+					</section>
+-->
+
+				<!-- Three -->
+<!--
+					<section id="three" class="wrapper style3 special">
+						<div class="inner">
+							<header class="major">
+								<h2>Accumsan mus tortor nunc aliquet</h2>
+								<p>Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet eleifend<br />
+								fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus ullamcorper.</p>
+							</header>
+							<ul class="features">
+								<li class="icon fa-paper-plane-o">
+									<h3>Arcu accumsan</h3>
+									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
+								</li>
+								<li class="icon fa-laptop">
+									<h3>Ac Augue Eget</h3>
+									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
+								</li>
+								<li class="icon fa-code">
+									<h3>Mus Scelerisque</h3>
+									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
+								</li>
+								<li class="icon fa-headphones">
+									<h3>Mauris Imperdiet</h3>
+									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
+								</li>
+								<li class="icon fa-heart-o">
+									<h3>Aenean Primis</h3>
+									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
+								</li>
+								<li class="icon fa-flag-o">
+									<h3>Tortor Ut</h3>
+									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
+								</li>
+							</ul>
+						</div>
+					</section>
+-->
+
+				<!-- CTA -->
+<!--
+					<section id="cta" class="wrapper style4">
+						<div class="inner">
+							<header>
+								<h2>Arcue ut vel commodo</h2>
+								<p>Aliquam ut ex ut augue consectetur interdum endrerit imperdiet amet eleifend fringilla.</p>
+							</header>
+							<ul class="actions vertical">
+								<li><a href="#" class="button fit special">Activate</a></li>
+								<li><a href="#" class="button fit">Learn More</a></li>
+							</ul>
+						</div>
+					</section>
+-->
+
+				<!-- Footer -->
+					<footer id="footer">
+						<ul class="icons">
+<!--
+							<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+							<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
+							<li><a href="#" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+-->
+						</ul>
+						<ul class="copyright">
+							<li>&copy; Zillow project</li>
+						</ul>
+					</footer>

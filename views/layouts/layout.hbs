@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title> {{title}} </title>
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="/stylesheets/main.css" />
+        		<!-- Scripts -->
+			<script src="/javascripts/jquery.min.js"></script>
+			<script src="/javascripts/jquery.scrollex.min.js"></script>
+			<script src="/javascripts/jquery.scrolly.min.js"></script>
+			<script src="/javascripts/skel.min.js"></script>
+			<script src="/javascripts/util.js"></script>
+			<script src="/javascripts/main.js"></script>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="/javascripts/footable-bootstrap.latest/js/footable.js"></script>
+        <link rel="stylesheet" href="/stylesheets/footable-bootstrap.latest/css/footable.bootstrap.css" />
+        <script src="/javascripts/common.js"></script>
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/raphael/2.1.2/raphael-min.js"></script>
+<script src="/javascripts/morris.js"></script>
+        <link rel="stylesheet" href="/stylesheets/morris.css" />
+  
+
+
+<script src='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js'></script>        
+<script src='http://cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.10.0/bootstrap-table.js'></script>
+        
+        
+        <script>$(document).ready(function(){
+                     $("#searchMenu").hide();
+                        $("#beginSearch").click(function() {
+                            $("#searchMenu").fadeIn('slow');
+                             $( "#beginSearch" ).toggle('2000');
+                        });  
+                });
+        </script>
+        
+    </head>
+    
+    <body class="landing">
+        <div id="page-wrapper">
+            {{{ body  }}}
+        </div>
+    </body>
+
+</html>
